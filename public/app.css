@@ -1,0 +1,53 @@
+body{
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+}
+.msg{
+    border:1px solid black;
+    padding:5px;
+    /* margin:5px; */
+    background-color: gray;
+    list-style-type: none;
+    width: 100%;
+    list-style-type: none;
+
+}
+#typing{
+    color:green;
+    height:20px;
+    width:100%;
+    /* width:90%; */
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#input{
+    display: inline-block;
+    border: 1px solid white;
+    width:100%;
+    padding:10px;
+}
+#form{
+    display: flex;
+    width: 100%;
+    /* width: 90%; */
+    margin-top: 20px;
+}
+#messagesHolder{
+
+    /* width:90%; */
+    width:100%;
+    height:450px;
+    border: 1px solid white;
+    overflow: scroll;
+    background-color: lightgray;
+    color:black;
+
+}
+#hero{
+    border-bottom:5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
